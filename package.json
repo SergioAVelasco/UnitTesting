@@ -1,0 +1,23 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "Some Jest unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testMath": "jest math.test.js"
+  },
+  "keywords": [
+    "jest",
+    "test"
+  ],
+  "author": "Sergio A. Velasco",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-jest": "^24.9.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.9.0"
+  }
+}
