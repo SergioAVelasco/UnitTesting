@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "testMath": "jest math.test.js"
+    "testMath": "jest math.test.js",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "jest",
@@ -19,5 +21,9 @@
     "babel-jest": "^24.9.0",
     "babel-polyfill": "^6.26.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "axios": "^0.19.0"
   }
 }
